@@ -4,9 +4,9 @@ Very simple implementation of [stress](https://github.com/resurrecting-open-sour
 
 Actually I am using in Dockerfile `ubuntu:latest`
 
-For the specific optimalization on your cluster and node/s, read the [man](https://linux.die.net/man/1/stress) and update `args` and `resource and limits` in `job.yaml`.
+For the specific optimalization on your cluster and node/s, read the [man](https://linux.die.net/man/1/stress) and update `args` and `resource - limits/requests` in `job.yaml`.
 
-# Docker:
+# Local development:
 
 ```bash
 make build #build docker image
