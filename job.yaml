@@ -8,6 +8,7 @@ spec:
       labels:
         app: stress-test
     spec:
+      containers:
       - name: stress-test-A
         image: ubuntu-stress:latest
         resources:
