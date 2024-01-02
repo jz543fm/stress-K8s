@@ -10,7 +10,7 @@ For the specific optimalization on your cluster and node/s, read the [man](https
 
 Docker images for the `debian:latest` and `ubuntu:latest`
 
-[lostcauze7/debian-stress](https://hub.docker.com/repository/docker/lostcauze7/ubuntdebian-stress)
+[lostcauze7/debian-stress](https://hub.docker.com/repository/docker/lostcauze7/debian-stress)
 
 [lostcauze7/ubuntu-stress](https://hub.docker.com/repository/docker/lostcauze7/ubuntu-stress)
 
