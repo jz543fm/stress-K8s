@@ -10,7 +10,8 @@ spec:
     spec:
       containers:
       - name: stress-test-A
-        image: ubuntu-stress:latest
+        #image:  lostcauze7/debian-stress:latest
+        image:  lostcauze7/ubuntu-stress:latest
         resources:
           limits:
             cpu: "4"
