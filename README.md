@@ -6,6 +6,14 @@ Actually I am using in Dockerfile `ubuntu:latest`
 
 For the specific optimalization on your cluster and node/s, read the [man](https://linux.die.net/man/1/stress) and update `args` and `resource - limits/requests` in `job.yaml`.
 
+## Docker Hub
+
+Docker images for the `debian:latest` and `ubuntu:latest`
+
+[lostcauze7/debian-stress](https://hub.docker.com/repository/docker/lostcauze7/ubuntdebian-stress)
+
+[lostcauze7/ubuntu-stress](https://hub.docker.com/repository/docker/lostcauze7/ubuntu-stress)
+
 # Local development:
 
 ```bash
