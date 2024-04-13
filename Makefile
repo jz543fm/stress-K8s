@@ -1,6 +1,6 @@
 build:
 
-	 DOCKER_BUILDKIT=1 docker build  -t ubuntu-stress .
+	docker build  -t ubuntu-stress .
 
 exec:
 
